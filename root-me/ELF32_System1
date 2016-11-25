@@ -1,0 +1,6 @@
+~$ cd tmp
+~$ mkdir ch1 ; cd ch1
+~$ ln -s /bin/cat ls    // create symbolic link ls->cat
+~$ export PATH="/tmp/ch1"
+ // nav back to our program
+~$ ./ch11
